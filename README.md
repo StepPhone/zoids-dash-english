@@ -1,14 +1,14 @@
 # Zoids Dash — English Translation
 
-By **StepPhone of the StepHackerZ**. **v0.2-beta — test release.**
+By **StepPhone of the StepHackerZ**. **v0.3-beta — test release.**
 
 An unofficial English translation patch for the Japanese Nintendo DS game **Zoids Dash** (game code **AZHJ**). Supply your own clean Japanese ROM; no game ROM or emulator is included.
 
 ## Download and patch
 
-Download [Zoids-Dash-English-v0.2-beta.zip](https://github.com/StepPhone/zoids-dash-english/releases/download/v0.2-beta/Zoids-Dash-English-v0.2-beta.zip) from the [release page](https://github.com/StepPhone/zoids-dash-english/releases/tag/v0.2-beta).
+Download [Zoids-Dash-English-v0.3-beta.zip](https://github.com/StepPhone/zoids-dash-english/releases/download/v0.3-beta/Zoids-Dash-English-v0.3-beta.zip) from the [release page](https://github.com/StepPhone/zoids-dash-english/releases/tag/v0.3-beta).
 
-1. Extract the ZIP to get `Zoids-Dash-English-v0.2-beta.bps`.
+1. Extract the ZIP to get `Zoids-Dash-English-v0.3-beta.bps`.
 2. Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or use [Floating IPS](https://github.com/Sir-Walrus/Flips/releases/tag/v198).
 3. Select your **unmodified Japanese `.nds` ROM** as the source and the **`.bps` file** as the patch. Extract your ROM from its ZIP first.
 4. Apply the patch and save the result as `Zoids Dash (English - Beta).nds`. Keep your original ROM.
@@ -23,17 +23,17 @@ Only the exact source below is supported. Both source and output are **67,108,86
 | File | SHA-256 |
 | --- | --- |
 | Clean Japanese source | `bd5c562d5e675cd95f207d83e3e63431e9662bfa427394ff8149e948dea016be` |
-| Patched English beta | `bd3a0aa2e58c36c807777abc32488cbc2cc233324214d9fe125d4fe830ab0c1b` |
+| Patched English beta | `0c62bd907af7ee7c0ffd1fa94f9c6ce95e2ed8e0770e8457df63082260b72026` |
 
 On Windows, check your source with PowerShell: `Get-FileHash -Algorithm SHA256 'Zoids Dash (Japan).nds'`.
 
 ## Boot credits
 
-Version 0.2 adds the supplied StepHackerZ credits artwork to the lower screen during the publisher splash, before the title menu. The complete 320×180 image is fitted to 256×144 and centered without cropping. The original publisher logo remains on the upper screen.
+Version 0.3 uses the new native 256×192 StepHackerZ credits artwork on the lower screen during the publisher splash, before the title menu. It fills the screen at its original pixel dimensions, with no resizing or cropping. The original publisher logo remains on the upper screen.
 
 ![StepHackerZ boot credits](assets/credits-boot.png)
 
-Apply this version to a **clean Japanese ROM**, not the already-patched v0.1 ROM.
+Apply this version to a **clean Japanese ROM**, not an already-patched English ROM.
 
 ## Included scope
 

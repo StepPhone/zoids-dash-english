@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3-beta
+
+- Replaces the boot credits with the supplied native 256×192 artwork, without resizing or cropping.
+- Verified the replacement splash in melonDS 1.1 and the BPS round-trip byte for byte.
+- Includes all earlier translation changes; apply to a clean Japanese ROM.
+
 ## v0.2-beta
 
 - Adds the supplied StepHackerZ credits image on the lower screen during boot.
