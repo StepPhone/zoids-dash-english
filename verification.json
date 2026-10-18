@@ -1,6 +1,6 @@
 {
   "rom": "Zoids Dash (English - Beta).nds",
-  "sha256": "d6dad68cc8fe2074df866fed9268e96e5929182de805b085f1da56a56f405458",
+  "sha256": "bd3a0aa2e58c36c807777abc32488cbc2cc233324214d9fe125d4fe830ab0c1b",
   "original_sha256": "bd5c562d5e675cd95f207d83e3e63431e9662bfa427394ff8149e948dea016be",
   "rom_bytes": 67108864,
   "archive_assets": 940,
@@ -9,10 +9,11 @@
   "translated_cutscene_strings": 20,
   "translated_sprite_labels": 442,
   "checks": "PASS: original hash, file bounds, archive sections, header CRC, unchanged sound archive, text byte budgets, color codes and line lengths.",
-  "patch": "Zoids-Dash-English-v0.1-beta.bps",
-  "patch_bytes": 100607,
-  "patch_sha256": "52d68637c484bad51371b4702ec94d2a61cf4502978b1fd34bbf1cbdfd8cfbd1",
+  "patch": "Zoids-Dash-English-v0.2-beta.bps",
+  "patch_bytes": 114861,
+  "patch_sha256": "decb0674ac09a36e591400afcb30ad21c5a59771cb895a3dc10b261bfc1e0ccd",
   "patch_tool": "Floating IPS v198",
   "patch_roundtrip": "PASS: byte-for-byte match to English beta",
-  "bps_crc_checks": "PASS: source, target and patch CRC32"
+  "bps_crc_checks": "PASS: source, target and patch CRC32",
+  "boot_test": "PASS: credits on lower screen during publisher splash, followed by title menu in melonDS 1.1"
 }
