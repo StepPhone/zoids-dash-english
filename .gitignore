@@ -1,0 +1,9 @@
+*.nds
+*.sav
+*.dsv
+*.srm
+*.exe
+*.dll
+*.zip
+__pycache__/
+.DS_Store

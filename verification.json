@@ -1,0 +1,18 @@
+{
+  "rom": "Zoids Dash (English - Beta).nds",
+  "sha256": "d6dad68cc8fe2074df866fed9268e96e5929182de805b085f1da56a56f405458",
+  "original_sha256": "bd5c562d5e675cd95f207d83e3e63431e9662bfa427394ff8149e948dea016be",
+  "rom_bytes": 67108864,
+  "archive_assets": 940,
+  "archive_sections": 1223,
+  "translated_arm9_strings": 205,
+  "translated_cutscene_strings": 20,
+  "translated_sprite_labels": 442,
+  "checks": "PASS: original hash, file bounds, archive sections, header CRC, unchanged sound archive, text byte budgets, color codes and line lengths.",
+  "patch": "Zoids-Dash-English-v0.1-beta.bps",
+  "patch_bytes": 100607,
+  "patch_sha256": "52d68637c484bad51371b4702ec94d2a61cf4502978b1fd34bbf1cbdfd8cfbd1",
+  "patch_tool": "Floating IPS v198",
+  "patch_roundtrip": "PASS: byte-for-byte match to English beta",
+  "bps_crc_checks": "PASS: source, target and patch CRC32"
+}
